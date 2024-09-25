@@ -29,15 +29,7 @@ midterm_weighted = midterm_average * 0.25
 final_weighted = final_exam_grade * 0.18
 prep_weighted = prep_grade * 0.06
 
-total_grade = (
-    lab_weighted
-    + quiz_weighted
-    + assignment_weighted
-    + midterm_weighted
-    + final_weighted
-    + prep_weighted
-)
+total_grade = (lab_weighted + quiz_weighted + assignment_weighted + midterm_weighted + final_weighted + prep_weighted)
 
 total_grade = round(total_grade, 2)
-
 print(f"Your grade is: {total_grade}")
